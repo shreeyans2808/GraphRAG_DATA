@@ -1,0 +1,660 @@
+Subject,Predicate,Object
+Hypertension,belongs_to,Cardiology
+Hypertension,has_symptom,Persistent headaches
+Hypertension,has_symptom,Shortness of breath
+Hypertension,has_symptom,Dizziness
+Hypertension,has_symptom,Chest pain
+Hypertension,has_symptom,Irregular heartbeat
+Hypertension,requires_test,Blood pressure measurement
+Hypertension,requires_test,Lipid profile
+Hypertension,requires_test,Electrocardiogram (ECG)
+Hypertension,treated_with,ACE inhibitors
+Hypertension,treated_with,Beta-blockers
+Hypertension,treated_with,Diuretics
+Hypertension,managed_by,Regular exercise
+Hypertension,managed_by,Low-sodium diet
+Hypertension,managed_by,Stress management techniques
+Hypertension,managed_by,Garlic supplements
+Diabetes,belongs_to,Endocrinology
+Diabetes,has_symptom,Increased thirst
+Diabetes,has_symptom,Frequent urination
+Diabetes,has_symptom,Extreme fatigue
+Diabetes,has_symptom,Blurred vision
+Diabetes,has_symptom,Slow healing sores
+Diabetes,requires_test,Fasting blood sugar test
+Diabetes,requires_test,A1C test
+Diabetes,requires_test,Oral glucose tolerance test
+Diabetes,treated_with,Metformin
+Diabetes,treated_with,Insulin
+Diabetes,treated_with,Sulfonylureas
+Diabetes,managed_by,Balanced diet
+Diabetes,managed_by,Regular exercise
+Diabetes,managed_by,Monitoring blood sugar levels
+Asthma,belongs_to,Respiratory
+Asthma,has_symptom,Shortness of breath
+Asthma,has_symptom,Chest tightness
+Asthma,has_symptom,Wheezing
+Asthma,has_symptom,Coughing
+Asthma,has_symptom,Difficulty sleeping
+Asthma,requires_test,Spirometry
+Asthma,requires_test,Peak flow monitoring
+Asthma,requires_test,Allergy testing
+Asthma,treated_with,Inhaled corticosteroids
+Asthma,treated_with,Leukotriene modifiers
+Asthma,treated_with,Long-acting beta agonists
+Asthma,managed_by,Avoiding triggers
+Asthma,managed_by,Using a humidifier
+Asthma,managed_by,Breathing exercises
+Flu,belongs_to,Infectious Diseases
+Flu,has_symptom,Fever
+Flu,has_symptom,Cough
+Flu,has_symptom,Sore throat
+Flu,has_symptom,Body aches
+Flu,has_symptom,Fatigue
+Flu,requires_test,Rapid influenza diagnostic tests
+Flu,requires_test,PCR tests
+Flu,treated_with,Antiviral medications
+Flu,treated_with,Pain relievers
+Flu,managed_by,Rest
+Flu,managed_by,Hydration
+Flu,managed_by,Warm salt water gargle
+Migraine,belongs_to,Neurology
+Migraine,has_symptom,Severe headache
+Migraine,has_symptom,Nausea
+Migraine,has_symptom,Sensitivity to light
+Migraine,has_symptom,Visual disturbances
+Migraine,requires_test,Neurological exam
+Migraine,requires_test,CT scan
+Migraine,requires_test,MRI
+Migraine,treated_with,Triptans
+Migraine,treated_with,Ergots
+Migraine,treated_with,Pain relievers
+Migraine,managed_by,Cold compress
+Migraine,managed_by,Caffeine
+Migraine,managed_by,Regular sleep schedule
+Arthritis,belongs_to,Rheumatology
+Arthritis,has_symptom,Joint pain
+Arthritis,has_symptom,Stiffness
+Arthritis,has_symptom,Swelling
+Arthritis,has_symptom,Reduced range of motion
+Arthritis,has_symptom,Morning joint stiffness
+Arthritis,requires_test,X-ray
+Arthritis,requires_test,Blood tests
+Arthritis,requires_test,Joint fluid analysis
+Arthritis,treated_with,NSAIDs
+Arthritis,treated_with,Corticosteroids
+Arthritis,treated_with,Disease-modifying antirheumatic drugs
+Arthritis,managed_by,Gentle exercise
+Arthritis,managed_by,Hot and cold therapy
+Arthritis,managed_by,Weight management
+Depression,belongs_to,Psychology
+Depression,has_symptom,Persistent sadness
+Depression,has_symptom,Loss of interest
+Depression,has_symptom,Sleep disturbances
+Depression,has_symptom,Appetite changes
+Depression,has_symptom,Fatigue
+Depression,requires_test,Psychological evaluation
+Depression,requires_test,Depression screening tests
+Depression,requires_test,Blood tests to rule out other conditions
+Depression,treated_with,SSRIs
+Depression,treated_with,SNRIs
+Depression,treated_with,Antidepressants
+Depression,managed_by,Regular exercise
+Depression,managed_by,Meditation
+Depression,managed_by,Counseling
+Depression,managed_by,Maintaining social connections
+Thyroid Disorder,belongs_to,Endocrinology
+Thyroid Disorder,has_symptom,Unexplained weight changes
+Thyroid Disorder,has_symptom,Fatigue
+Thyroid Disorder,has_symptom,Temperature sensitivity
+Thyroid Disorder,has_symptom,Hair loss
+Thyroid Disorder,has_symptom,Mood swings
+Thyroid Disorder,requires_test,Thyroid function tests
+Thyroid Disorder,requires_test,Ultrasound
+Thyroid Disorder,requires_test,Hormone level tests
+Thyroid Disorder,treated_with,Levothyroxine
+Thyroid Disorder,treated_with,Thyroid hormone replacements
+Thyroid Disorder,managed_by,Balanced diet
+Thyroid Disorder,managed_by,Stress management
+Thyroid Disorder,managed_by,Regular exercise
+Kidney Stones,belongs_to,Urology
+Kidney Stones,has_symptom,Severe side pain
+Kidney Stones,has_symptom,Blood in urine
+Kidney Stones,has_symptom,Frequent urination
+Kidney Stones,has_symptom,Nausea
+Kidney Stones,has_symptom,Burning sensation
+Kidney Stones,requires_test,CT scan
+Kidney Stones,requires_test,Urinalysis
+Kidney Stones,requires_test,Blood tests
+Kidney Stones,treated_with,Pain relievers
+Kidney Stones,treated_with,Alpha-blockers
+Kidney Stones,treated_with,Antibiotics
+Kidney Stones,managed_by,Increased water intake
+Kidney Stones,managed_by,Lemon juice
+Kidney Stones,managed_by,Avoiding oxalate-rich foods
+Gastritis,belongs_to,Gastrointestinal
+Gastritis,has_symptom,Stomach pain
+Gastritis,has_symptom,Nausea
+Gastritis,has_symptom,Bloating
+Gastritis,has_symptom,Indigestion
+Gastritis,has_symptom,Loss of appetite
+Gastritis,requires_test,Endoscopy
+Gastritis,requires_test,Blood tests
+Gastritis,requires_test,Stool tests
+Gastritis,treated_with,Antacids
+Gastritis,treated_with,Proton pump inhibitors
+Gastritis,treated_with,H2 blockers
+Gastritis,managed_by,Probiotics
+Gastritis,managed_by,Avoiding spicy foods
+Gastritis,managed_by,Stress reduction
+Multiple Sclerosis,belongs_to,Neurology
+Multiple Sclerosis,has_symptom,Fatigue
+Multiple Sclerosis,has_symptom,Vision problems
+Multiple Sclerosis,has_symptom,Muscle weakness
+Multiple Sclerosis,has_symptom,Balance issues
+Multiple Sclerosis,has_symptom,Numbness
+Multiple Sclerosis,requires_test,MRI
+Multiple Sclerosis,requires_test,Spinal fluid analysis
+Multiple Sclerosis,requires_test,Neurological examination
+Multiple Sclerosis,treated_with,Interferon beta
+Multiple Sclerosis,treated_with,Glatiramer acetate
+Multiple Sclerosis,treated_with,Corticosteroids
+Multiple Sclerosis,managed_by,Regular exercise
+Multiple Sclerosis,managed_by,Stress management
+Multiple Sclerosis,managed_by,Balanced diet
+Psoriasis,belongs_to,Dermatology
+Psoriasis,has_symptom,Red skin patches
+Psoriasis,has_symptom,Silvery scales
+Psoriasis,has_symptom,Dry cracked skin
+Psoriasis,has_symptom,Itching
+Psoriasis,has_symptom,Joint pain
+Psoriasis,requires_test,Physical examination
+Psoriasis,requires_test,Skin biopsy
+Psoriasis,requires_test,Blood tests
+Psoriasis,treated_with,Topical corticosteroids
+Psoriasis,treated_with,Retinoids
+Psoriasis,treated_with,Immunosuppressants
+Psoriasis,managed_by,Moisturizing
+Psoriasis,managed_by,Sunlight exposure
+Psoriasis,managed_by,Stress reduction
+Epilepsy,belongs_to,Neurology
+Epilepsy,has_symptom,Seizures
+Epilepsy,has_symptom,Temporary confusion
+Epilepsy,has_symptom,Staring spells
+Epilepsy,has_symptom,Loss of consciousness
+Epilepsy,requires_test,EEG
+Epilepsy,requires_test,MRI
+Epilepsy,requires_test,Blood tests
+Epilepsy,treated_with,Anticonvulsants
+Epilepsy,treated_with,Valproic acid
+Epilepsy,treated_with,Carbamazepine
+Epilepsy,managed_by,Regular sleep
+Epilepsy,managed_by,Stress management
+Epilepsy,managed_by,Avoid triggers
+Osteoporosis,belongs_to,Orthopedics
+Osteoporosis,has_symptom,Bone fractures
+Osteoporosis,has_symptom,Height loss
+Osteoporosis,has_symptom,Stooped posture
+Osteoporosis,has_symptom,Back pain
+Osteoporosis,requires_test,Bone density scan
+Osteoporosis,requires_test,X-ray
+Osteoporosis,requires_test,Blood calcium test
+Osteoporosis,treated_with,Bisphosphonates
+Osteoporosis,treated_with,Hormone therapy
+Osteoporosis,treated_with,Calcium supplements
+Osteoporosis,managed_by,Weight-bearing exercises
+Osteoporosis,managed_by,Calcium-rich diet
+Osteoporosis,managed_by,Vitamin D
+Crohn's Disease,belongs_to,Gastroenterology
+Crohn's Disease,has_symptom,Abdominal pain
+Crohn's Disease,has_symptom,Diarrhea
+Crohn's Disease,has_symptom,Weight loss
+Crohn's Disease,has_symptom,Fatigue
+Crohn's Disease,has_symptom,Reduced appetite
+Crohn's Disease,requires_test,Colonoscopy
+Crohn's Disease,requires_test,Blood tests
+Crohn's Disease,requires_test,MRI enterography
+Crohn's Disease,treated_with,Corticosteroids
+Crohn's Disease,treated_with,Immunosuppressants
+Crohn's Disease,treated_with,Biologics
+Crohn's Disease,managed_by,Low-fiber diet
+Crohn's Disease,managed_by,Stress reduction
+Crohn's Disease,managed_by,Probiotics
+Glaucoma,belongs_to,Ophthalmology
+Glaucoma,has_symptom,Eye pressure
+Glaucoma,has_symptom,Vision loss
+Glaucoma,has_symptom,Eye pain
+Glaucoma,has_symptom,Halos around lights
+Glaucoma,requires_test,Tonometry
+Glaucoma,requires_test,Visual field test
+Glaucoma,requires_test,Ophthalmoscopy
+Glaucoma,treated_with,Eye drops
+Glaucoma,treated_with,Beta-blockers
+Glaucoma,treated_with,Prostaglandin analogs
+Glaucoma,managed_by,Regular eye exercises
+Glaucoma,managed_by,Healthy diet
+Glaucoma,managed_by,Stress management
+Lupus,belongs_to,Rheumatology
+Lupus,has_symptom,Skin rashes
+Lupus,has_symptom,Joint pain
+Lupus,has_symptom,Fatigue
+Lupus,has_symptom,Fever
+Lupus,has_symptom,Hair loss
+Lupus,requires_test,ANA test
+Lupus,requires_test,Blood tests
+Lupus,requires_test,Kidney function tests
+Lupus,treated_with,Antimalarial drugs
+Lupus,treated_with,Corticosteroids
+Lupus,treated_with,Immunosuppressants
+Lupus,managed_by,Sun protection
+Lupus,managed_by,Regular exercise
+Lupus,managed_by,Balanced diet
+Parkinson's Disease,belongs_to,Neurology
+Parkinson's Disease,has_symptom,Tremors
+Parkinson's Disease,has_symptom,Slow movement
+Parkinson's Disease,has_symptom,Muscle rigidity
+Parkinson's Disease,has_symptom,Balance problems
+Parkinson's Disease,requires_test,Neurological examination
+Parkinson's Disease,requires_test,DaTscan
+Parkinson's Disease,requires_test,MRI
+Parkinson's Disease,treated_with,Levodopa
+Parkinson's Disease,treated_with,Dopamine agonists
+Parkinson's Disease,treated_with,MAO-B inhibitors
+Parkinson's Disease,managed_by,Physical therapy
+Parkinson's Disease,managed_by,Regular exercise
+Parkinson's Disease,managed_by,Balanced diet
+Celiac Disease,belongs_to,Gastroenterology
+Celiac Disease,has_symptom,Digestive issues
+Celiac Disease,has_symptom,Fatigue
+Celiac Disease,has_symptom,Weight loss
+Celiac Disease,has_symptom,Bloating
+Celiac Disease,has_symptom,Anemia
+Celiac Disease,requires_test,Blood tests
+Celiac Disease,requires_test,Endoscopy
+Celiac Disease,requires_test,Intestinal biopsy
+Celiac Disease,treated_with,No specific medicines
+Celiac Disease,treated_with,Nutritional supplements
+Celiac Disease,managed_by,Gluten-free diet
+Celiac Disease,managed_by,Probiotics
+Celiac Disease,managed_by,Nutritional support
+Rheumatoid Arthritis,belongs_to,Rheumatology
+Rheumatoid Arthritis,has_symptom,Joint pain
+Rheumatoid Arthritis,has_symptom,Morning stiffness
+Rheumatoid Arthritis,has_symptom,Swelling
+Rheumatoid Arthritis,has_symptom,Fatigue
+Rheumatoid Arthritis,has_symptom,Fever
+Rheumatoid Arthritis,requires_test,Rheumatoid factor test
+Rheumatoid Arthritis,requires_test,Anti-CCP antibody
+Rheumatoid Arthritis,requires_test,X-ray
+Rheumatoid Arthritis,treated_with,DMARDs
+Rheumatoid Arthritis,treated_with,Biologics
+Rheumatoid Arthritis,treated_with,Corticosteroids
+Rheumatoid Arthritis,managed_by,Gentle exercise
+Rheumatoid Arthritis,managed_by,Hot/cold therapy
+Rheumatoid Arthritis,managed_by,Stress management
+Viral Infection,belongs_to,Infectious Diseases
+Viral Infection,has_symptom,Fever
+Viral Infection,has_symptom,Body aches
+Viral Infection,has_symptom,Fatigue
+Viral Infection,has_symptom,Chills
+Viral Infection,has_symptom,Headache
+Viral Infection,requires_test,Physical examination
+Viral Infection,requires_test,Blood tests
+Viral Infection,treated_with,Paracetamol
+Viral Infection,treated_with,Ibuprofen
+Viral Infection,treated_with,Rest
+Viral Infection,managed_by,Hydration
+Viral Infection,managed_by,Rest
+Viral Infection,managed_by,Warm fluids
+Allergic Rhinitis,belongs_to,Respiratory
+Allergic Rhinitis,has_symptom,Runny nose
+Allergic Rhinitis,has_symptom,Sneezing
+Allergic Rhinitis,has_symptom,Itchy eyes
+Allergic Rhinitis,has_symptom,Nasal congestion
+Allergic Rhinitis,requires_test,Skin prick test
+Allergic Rhinitis,requires_test,Blood tests
+Allergic Rhinitis,treated_with,Antihistamines
+Allergic Rhinitis,treated_with,Nasal sprays
+Allergic Rhinitis,managed_by,Saline nasal rinse
+Allergic Rhinitis,managed_by,Air purification
+Allergic Rhinitis,managed_by,Avoiding triggers
+Stomach Upset,belongs_to,Gastrointestinal
+Stomach Upset,has_symptom,Nausea
+Stomach Upset,has_symptom,Abdominal pain
+Stomach Upset,has_symptom,Bloating
+Stomach Upset,has_symptom,Indigestion
+Stomach Upset,requires_test,Physical examination
+Stomach Upset,requires_test,Stool tests
+Stomach Upset,treated_with,Antacids
+Stomach Upset,treated_with,Probiotics
+Stomach Upset,managed_by,Bland diet
+Stomach Upset,managed_by,Ginger tea
+Stomach Upset,managed_by,Hydration
+Minor Skin Infection,belongs_to,Dermatology
+Minor Skin Infection,has_symptom,Redness
+Minor Skin Infection,has_symptom,Swelling
+Minor Skin Infection,has_symptom,Mild pain
+Minor Skin Infection,has_symptom,Itching
+Minor Skin Infection,requires_test,Physical examination
+Minor Skin Infection,requires_test,Skin culture
+Minor Skin Infection,treated_with,Topical antibiotics
+Minor Skin Infection,treated_with,Antiseptic creams
+Minor Skin Infection,managed_by,Cleaning wound
+Minor Skin Infection,managed_by,Warm compress
+Minor Skin Infection,managed_by,Keeping area dry
+Muscle Strain,belongs_to,Orthopedic
+Muscle Strain,has_symptom,Muscle pain
+Muscle Strain,has_symptom,Stiffness
+Muscle Strain,has_symptom,Reduced mobility
+Muscle Strain,has_symptom,Swelling
+Muscle Strain,requires_test,Physical examination
+Muscle Strain,requires_test,Range of motion test
+Muscle Strain,treated_with,Pain relievers
+Muscle Strain,treated_with,Anti-inflammatory drugs
+Muscle Strain,managed_by,Rest
+Muscle Strain,managed_by,Ice pack
+Muscle Strain,managed_by,Gentle stretching
+Mild Conjunctivitis,belongs_to,Ophthalmology
+Mild Conjunctivitis,has_symptom,Eye redness
+Mild Conjunctivitis,has_symptom,Itching
+Mild Conjunctivitis,has_symptom,Discharge
+Mild Conjunctivitis,has_symptom,Mild discomfort
+Mild Conjunctivitis,requires_test,Eye examination
+Mild Conjunctivitis,requires_test,Swab test
+Mild Conjunctivitis,treated_with,Antibiotic eye drops
+Mild Conjunctivitis,treated_with,Antihistamine drops
+Mild Conjunctivitis,managed_by,Warm compress
+Mild Conjunctivitis,managed_by,Gentle cleaning
+Mild Conjunctivitis,managed_by,Avoid touching eyes
+Mild Bronchitis,belongs_to,Respiratory
+Mild Bronchitis,has_symptom,Persistent cough
+Mild Bronchitis,has_symptom,Chest discomfort
+Mild Bronchitis,has_symptom,Mucus production
+Mild Bronchitis,requires_test,Chest examination
+Mild Bronchitis,requires_test,Lung function tests
+Mild Bronchitis,treated_with,Cough suppressants
+Mild Bronchitis,treated_with,Expectorants
+Mild Bronchitis,managed_by,Steam inhalation
+Mild Bronchitis,managed_by,Hydration
+Mild Bronchitis,managed_by,Rest
+Mild Urinary Tract Infection,belongs_to,Urology
+Mild Urinary Tract Infection,has_symptom,Frequent urination
+Mild Urinary Tract Infection,has_symptom,Burning sensation
+Mild Urinary Tract Infection,has_symptom,Mild abdominal pain
+Mild Urinary Tract Infection,requires_test,Urinalysis
+Mild Urinary Tract Infection,requires_test,Urine culture
+Mild Urinary Tract Infection,treated_with,Antibiotics
+Mild Urinary Tract Infection,treated_with,Pain relievers
+Mild Urinary Tract Infection,managed_by,Increased water intake
+Mild Urinary Tract Infection,managed_by,Cranberry juice
+Mild Urinary Tract Infection,managed_by,Avoiding irritants
+Tension Headache,belongs_to,Neurology
+Tension Headache,has_symptom,Mild head pain
+Tension Headache,has_symptom,Pressure around temples
+Tension Headache,has_symptom,Muscle tension
+Tension Headache,requires_test,Physical examination
+Tension Headache,requires_test,Neurological assessment
+Tension Headache,treated_with,Pain relievers
+Tension Headache,treated_with,Muscle relaxants
+Tension Headache,managed_by,Stress management
+Tension Headache,managed_by,Massage
+Tension Headache,managed_by,Relaxation techniques
+Minor Fungal Infection,belongs_to,Dermatology
+Minor Fungal Infection,has_symptom,Skin itching
+Minor Fungal Infection,has_symptom,Circular rash
+Minor Fungal Infection,has_symptom,Skin discoloration
+Minor Fungal Infection,requires_test,Skin scraping
+Minor Fungal Infection,requires_test,Microscopic examination
+Minor Fungal Infection,treated_with,Antifungal creams
+Minor Fungal Infection,treated_with,Oral antifungal medication
+Minor Fungal Infection,managed_by,Keeping area dry
+Minor Fungal Infection,managed_by,Hygiene
+Minor Fungal Infection,managed_by,Avoiding sharing personal items
+Insomnia,belongs_to,Psychology
+Insomnia,has_symptom,Difficulty falling asleep
+Insomnia,has_symptom,Waking up frequently
+Insomnia,has_symptom,Daytime fatigue
+Insomnia,requires_test,Sleep study
+Insomnia,treated_with,Sleep aids
+Insomnia,treated_with,Melatonin
+Insomnia,managed_by,Sleep hygiene
+Insomnia,managed_by,Relaxation techniques
+Insomnia,managed_by,Consistent sleep schedule
+Allergic Rhinitis,belongs_to,Respiratory
+Allergic Rhinitis,has_symptom,Sneezing
+Allergic Rhinitis,has_symptom,Runny nose
+Allergic Rhinitis,has_symptom,Itchy eyes
+Allergic Rhinitis,has_symptom,Nasal congestion
+Allergic Rhinitis,requires_test,Skin prick test
+Allergic Rhinitis,requires_test,Blood tests
+Allergic Rhinitis,treated_with,Antihistamines
+Allergic Rhinitis,treated_with,Nasal corticosteroids
+Allergic Rhinitis,managed_by,Saline nasal rinse
+Allergic Rhinitis,managed_by,Avoiding allergens
+Allergic Rhinitis,managed_by,Air purification
+Peptic Ulcer,belongs_to,Gastrointestinal
+Peptic Ulcer,has_symptom,Stomach pain
+Peptic Ulcer,has_symptom,Bloating
+Peptic Ulcer,has_symptom,Heartburn
+Peptic Ulcer,has_symptom,Nausea
+Peptic Ulcer,requires_test,Endoscopy
+Peptic Ulcer,requires_test,H. pylori test
+Peptic Ulcer,treated_with,Proton pump inhibitors
+Peptic Ulcer,treated_with,Antibiotics
+Peptic Ulcer,managed_by,Avoiding spicy foods
+Peptic Ulcer,managed_by,Stress management
+Peptic Ulcer,managed_by,Regular meals
+Hemorrhoids,belongs_to,Gastrointestinal
+Hemorrhoids,has_symptom,Rectal bleeding
+Hemorrhoids,has_symptom,Anal pain
+Hemorrhoids,has_symptom,Itching
+Hemorrhoids,has_symptom,Swelling
+Hemorrhoids,requires_test,Physical examination
+Hemorrhoids,requires_test,Proctoscopy
+Hemorrhoids,treated_with,Topical creams
+Hemorrhoids,treated_with,Pain relievers
+Hemorrhoids,managed_by,Sitz baths
+Hemorrhoids,managed_by,High-fiber diet
+Hemorrhoids,managed_by,Hydration
+Gastroesophageal Reflux Disease (GERD),belongs_to,Gastrointestinal
+Gastroesophageal Reflux Disease (GERD),has_symptom,Heartburn
+Gastroesophageal Reflux Disease (GERD),has_symptom,Chest pain
+Gastroesophageal Reflux Disease (GERD),has_symptom,Difficulty swallowing
+Gastroesophageal Reflux Disease (GERD),has_symptom,Regurgitation
+Gastroesophageal Reflux Disease (GERD),requires_test,Endoscopy
+Gastroesophageal Reflux Disease (GERD),requires_test,pH monitoring
+Gastroesophageal Reflux Disease (GERD),treated_with,Antacids
+Gastroesophageal Reflux Disease (GERD),treated_with,H2 blockers
+Gastroesophageal Reflux Disease (GERD),treated_with,Proton pump inhibitors
+Gastroesophageal Reflux Disease (GERD),managed_by,Avoiding trigger foods
+Gastroesophageal Reflux Disease (GERD),managed_by,Weight management
+Gastroesophageal Reflux Disease (GERD),managed_by,Eating small meals
+Urticaria (Hives),belongs_to,Dermatology
+Urticaria (Hives),has_symptom,Itchy red welts
+Urticaria (Hives),has_symptom,Skin swelling
+Urticaria (Hives),has_symptom,Burning sensation
+Urticaria (Hives),requires_test,Skin test
+Urticaria (Hives),requires_test,Blood tests
+Urticaria (Hives),treated_with,Antihistamines
+Urticaria (Hives),treated_with,Corticosteroids
+Urticaria (Hives),managed_by,Cool compresses
+Urticaria (Hives),managed_by,Avoiding triggers
+Urticaria (Hives),managed_by,Loose clothing
+Viral Hepatitis,belongs_to,Infectious Diseases
+Viral Hepatitis,has_symptom,Fatigue
+Viral Hepatitis,has_symptom,Jaundice
+Viral Hepatitis,has_symptom,Abdominal pain
+Viral Hepatitis,has_symptom,Dark urine
+Viral Hepatitis,requires_test,Liver function tests
+Viral Hepatitis,requires_test,Hepatitis panel
+Viral Hepatitis,treated_with,Antiviral medications
+Viral Hepatitis,treated_with,Supportive care
+Viral Hepatitis,managed_by,Rest
+Viral Hepatitis,managed_by,Hydration
+Viral Hepatitis,managed_by,Avoiding alcohol
+Chronic Fatigue Syndrome,belongs_to,Psychology
+Chronic Fatigue Syndrome,has_symptom,Extreme tiredness
+Chronic Fatigue Syndrome,has_symptom,Muscle pain
+Chronic Fatigue Syndrome,has_symptom,Cognitive difficulties
+Chronic Fatigue Syndrome,requires_test,Comprehensive medical evaluation
+Chronic Fatigue Syndrome,treated_with,Pain relievers
+Chronic Fatigue Syndrome,treated_with,Antidepressants
+Chronic Fatigue Syndrome,managed_by,Gentle exercise
+Chronic Fatigue Syndrome,managed_by,Sleep management
+Chronic Fatigue Syndrome,managed_by,Stress reduction
+Premenstrual Syndrome (PMS),belongs_to,Gynecology
+Premenstrual Syndrome (PMS),has_symptom,Mood swings
+Premenstrual Syndrome (PMS),has_symptom,Bloating
+Premenstrual Syndrome (PMS),has_symptom,Breast tenderness
+Premenstrual Syndrome (PMS),has_symptom,Cramps
+Premenstrual Syndrome (PMS),requires_test,Symptom tracking
+Premenstrual Syndrome (PMS),requires_test,Physical examination
+Premenstrual Syndrome (PMS),treated_with,Pain relievers
+Premenstrual Syndrome (PMS),treated_with,Hormonal treatments
+Premenstrual Syndrome (PMS),managed_by,Regular exercise
+Premenstrual Syndrome (PMS),managed_by,Dietary changes
+Premenstrual Syndrome (PMS),managed_by,Stress management
+Vertigo,belongs_to,Neurology
+Vertigo,has_symptom,Spinning sensation
+Vertigo,has_symptom,Balance problems
+Vertigo,has_symptom,Nausea
+Vertigo,requires_test,Balance tests
+Vertigo,requires_test,Hearing tests
+Vertigo,treated_with,Antivertigo medications
+Vertigo,treated_with,Antihistamines
+Vertigo,managed_by,Vestibular exercises
+Vertigo,managed_by,Stress reduction
+Vertigo,managed_by,Adequate rest
+Carpal Tunnel Syndrome,belongs_to,Orthopedic
+Carpal Tunnel Syndrome,has_symptom,Hand numbness
+Carpal Tunnel Syndrome,has_symptom,Wrist pain
+Carpal Tunnel Syndrome,has_symptom,Weakness
+Carpal Tunnel Syndrome,has_symptom,Tingling
+Carpal Tunnel Syndrome,requires_test,Nerve conduction study
+Carpal Tunnel Syndrome,requires_test,Physical examination
+Carpal Tunnel Syndrome,treated_with,Pain relievers
+Carpal Tunnel Syndrome,treated_with,Anti-inflammatory drugs
+Carpal Tunnel Syndrome,managed_by,Wrist exercises
+Carpal Tunnel Syndrome,managed_by,Ergonomic adjustments
+Carpal Tunnel Syndrome,managed_by,Cold/hot therapy
+Gout,belongs_to,Rheumatology
+Gout,has_symptom,Sudden joint pain
+Gout,has_symptom,Swelling
+Gout,has_symptom,Redness
+Gout,has_symptom,Warmth
+Gout,requires_test,Uric acid test
+Gout,requires_test,Joint fluid analysis
+Gout,treated_with,NSAIDs
+Gout,treated_with,Colchicine
+Gout,treated_with,Uric acid reducers
+Gout,managed_by,Hydration
+Gout,managed_by,Low-purine diet
+Gout,managed_by,Weight management
+Rosacea,belongs_to,Dermatology
+Rosacea,has_symptom,Facial redness
+Rosacea,has_symptom,Small bumps
+Rosacea,has_symptom,Visible blood vessels
+Rosacea,requires_test,Physical examination
+Rosacea,treated_with,Topical antibiotics
+Rosacea,treated_with,Oral antibiotics
+Rosacea,managed_by,Gentle skincare
+Rosacea,managed_by,Sun protection
+Rosacea,managed_by,Avoiding triggers
+Restless Leg Syndrome,belongs_to,Neurology
+Restless Leg Syndrome,has_symptom,Leg discomfort
+Restless Leg Syndrome,has_symptom,Urge to move
+Restless Leg Syndrome,has_symptom,Nighttime leg sensations
+Restless Leg Syndrome,requires_test,Neurological examination
+Restless Leg Syndrome,requires_test,Sleep study
+Restless Leg Syndrome,treated_with,Dopaminergic agents
+Restless Leg Syndrome,treated_with,Muscle relaxants
+Restless Leg Syndrome,managed_by,Regular exercise
+Restless Leg Syndrome,managed_by,Massage
+Restless Leg Syndrome,managed_by,Stress reduction
+Diverticulitis,belongs_to,Gastrointestinal
+Diverticulitis,has_symptom,Abdominal pain
+Diverticulitis,has_symptom,Fever
+Diverticulitis,has_symptom,Nausea
+Diverticulitis,has_symptom,Constipation
+Diverticulitis,requires_test,CT scan
+Diverticulitis,requires_test,Colonoscopy
+Diverticulitis,treated_with,Antibiotics
+Diverticulitis,treated_with,Pain relievers
+Diverticulitis,managed_by,High-fiber diet
+Diverticulitis,managed_by,Hydration
+Diverticulitis,managed_by,Rest
+Chronic Bronchitis,belongs_to,Respiratory
+Chronic Bronchitis,has_symptom,Persistent cough
+Chronic Bronchitis,has_symptom,Mucus production
+Chronic Bronchitis,has_symptom,Wheezing
+Chronic Bronchitis,requires_test,Pulmonary function tests
+Chronic Bronchitis,requires_test,Chest X-ray
+Chronic Bronchitis,treated_with,Bronchodilators
+Chronic Bronchitis,treated_with,Antibiotics
+Chronic Bronchitis,managed_by,Breathing exercises
+Chronic Bronchitis,managed_by,Avoiding irritants
+Chronic Bronchitis,managed_by,Hydration
+Fibromyalgia,belongs_to,Rheumatology
+Fibromyalgia,has_symptom,Widespread pain
+Fibromyalgia,has_symptom,Fatigue
+Fibromyalgia,has_symptom,Sleep problems
+Fibromyalgia,requires_test,Physical examination
+Fibromyalgia,requires_test,Tender point assessment
+Fibromyalgia,treated_with,Pain relievers
+Fibromyalgia,treated_with,Antidepressants
+Fibromyalgia,managed_by,Gentle exercise
+Fibromyalgia,managed_by,Stress management
+Fibromyalgia,managed_by,Sleep hygiene
+Kidney Stones,belongs_to,Urology
+Kidney Stones,has_symptom,Severe side pain
+Kidney Stones,has_symptom,Blood in urine
+Kidney Stones,has_symptom,Frequent urination
+Kidney Stones,requires_test,CT scan
+Kidney Stones,requires_test,Urinalysis
+Kidney Stones,requires_test,Blood tests
+Kidney Stones,treated_with,Pain medications
+Kidney Stones,treated_with,Alpha-blockers
+Kidney Stones,managed_by,Hydration
+Kidney Stones,managed_by,Dietary changes
+Kidney Stones,managed_by,Strain management
+Periodontitis,belongs_to,Dental
+Periodontitis,has_symptom,Gum inflammation
+Periodontitis,has_symptom,Bleeding gums
+Periodontitis,has_symptom,Tooth sensitivity
+Periodontitis,requires_test,Dental examination
+Periodontitis,requires_test,X-rays
+Periodontitis,treated_with,Antibiotics
+Periodontitis,treated_with,Antiseptic mouthwash
+Periodontitis,managed_by,Proper oral hygiene
+Periodontitis,managed_by,Regular dental cleaning
+Chronic Sinusitis,belongs_to,ENT
+Chronic Sinusitis,has_symptom,Nasal congestion
+Chronic Sinusitis,has_symptom,Facial pain
+Chronic Sinusitis,has_symptom,Reduced sense of smell
+Chronic Sinusitis,requires_test,Nasal endoscopy
+Chronic Sinusitis,requires_test,CT scan
+Chronic Sinusitis,treated_with,Nasal corticosteroids
+Chronic Sinusitis,treated_with,Antibiotics
+Chronic Sinusitis,managed_by,Steam inhalation
+Chronic Sinusitis,managed_by,Saline nasal rinse
+Chronic Sinusitis,managed_by,Hydration
+Snake Bite,belongs_to,Toxicology
+Snake Bite,has_symptom,Severe pain
+Snake Bite,has_symptom,Swelling
+Snake Bite,has_symptom,Difficulty breathing
+Depression,belongs_to,Psychiatry
+Depression,has_symptom,Persistent sadness
+Depression,has_symptom,Loss of interest
+Depression,has_symptom,Sleep disturbances
+Dengue,belongs_to,Infectious Disease
+Dengue,has_symptom,High fever
+Dengue,has_symptom,Severe joint pain
+Dengue,has_symptom,Skin rash
+Tuberculosis,belongs_to,Pulmonology
+Tuberculosis,has_symptom,Chronic cough
+Tuberculosis,has_symptom,Unintended weight loss
+Tuberculosis,has_symptom,Night sweats
+Chikungunya,belongs_to,Infectious Disease
+Chikungunya,has_symptom,High fever
+Chikungunya,has_symptom,Severe joint pain
+Chikungunya,has_symptom,Fatigue
